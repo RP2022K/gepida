@@ -1,14 +1,14 @@
 {
-  "name": "nodejs_sablon",
+  "name": "gepida",
   "version": "1.0.0",
-  "description": "",
+  "description": "dolgozat4",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx lite-server"
   },
   "keywords": [],
-  "author": "",
+  "author": "RP",
   "license": "ISC",
   "devDependencies": {
     "lite-server": "^2.6.1"
