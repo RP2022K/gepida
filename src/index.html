@@ -10,33 +10,48 @@ Licenc: GNU GPL
 
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>gepida</title>
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>gepida</title>
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="container">
-        <h1>Gepida</h1>
+  <div class="container">
 
-        <table id="bicycleTable" class="table table-striped mt-3 table-bordered border-primary">
-            <thead class="bg-info">
-              <tr>
-                <th scope="col">Név</th>
-                <th scope="col">Kerék</th>
-                <th scope="col">Használat</th>
-                <th scope="col">Ár</th>
-              </tr>
-            </thead>
-            <tbody id="bicycleBody" class="table-bordered border-primary table-info">
-              
-            </tbody>
-          </table>
+    <blockquote>
+      "Egy biciklitúra során hat dologról álmodsz: lapos, sima betonútról, csodás tájakról, egyszerű tájékozódásról,
+      finom ételekről, egy puha ágyról és a csábító célról. <br>A Duna mentén ez mind megvan."
+      <p>Alastair Humphreys</p>
+    </blockquote>
 
-    </div>
-    <script src="app.js"></script>
+    <h1>Gepida</h1>
+
+    <table id="bicycleTable" class="table table-hover table-striped mt-3 table-bordered border-primary">
+      <thead class="bg-info">
+        <tr>
+          <th scope="col">Név</th>
+          <th scope="col">Kerék</th>
+          <th scope="col">Használat</th>
+          <th scope="col">Ár</th>
+        </tr>
+      </thead>
+      <tbody id="bicycleBody" class="table-bordered border-primary table-info">
+
+      </tbody>
+      
+    </table>
+    <p class="p1 bg-info" style="--bs-bg-opacity: .5">
+      <br>
+    </p>
+    <p class="bg-info text-center p2">Gyüre Árpád, Szoft I-1-E, 2023-03-12</p>
+
+  </div>
+  <script src="app.js"></script>
 </body>
+
 </html>

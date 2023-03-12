@@ -8,3 +8,31 @@ Github: https://github.com/rp2022k/lelepi
 Licenc: GNU GPL
 */
 
+body{
+    background-color: rgb(248, 242, 235);
+    padding-top: 50px;
+}
+h1{
+    margin-bottom: 30px;
+}
+blockquote{
+    margin-left: 520px;
+    margin-right: 10px;
+    text-align: justify;
+    color: rgb(21, 21, 117);
+}
+blockquote p{
+    text-align: right;
+}
+.p2{
+    padding-left: 22px;
+    margin-top: -16px;
+    border: solid 1px;
+    border-top: 0;
+}
+.p1{
+    width:inherit;
+    margin-top: -16px;
+    border: solid 1px;
+    border-top: 0;
+}

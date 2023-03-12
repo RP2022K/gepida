@@ -9,6 +9,7 @@
 */
 
 const bicycleBody =document.querySelector("#bicycleBody");
+const bicycleFoot =document.querySelector("#bicycleFoot");
 
 const gepidaArray = [
     {name: "Cassis", wheel: 28, usage: "offroad", price: 557900},
