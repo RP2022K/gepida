@@ -1,3 +1,12 @@
+/*
+* File: app.js
+* Author: Gyüre Árpád
+* Copyright: 2023, Gyüre Árpád
+* Group: Szoft I-1-E
+* Date: 2023-03-12
+* Github: https://github.com/rp2022k/gepida
+* Licenc: GNU GPL
+*/
 
 const bicycleBody =document.querySelector("#bicycleBody");
 
